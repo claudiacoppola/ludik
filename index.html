@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creemos en el poder mágico de la imaginación, por lo que creamos juguetes únicos en el mundo que inspiran a los niños a explorar y aprender.">
+    <title>𝗟𝗨𝗗𝗜𝗞</title>
+    <link rel="shortcut icon" href="sources/logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#nav-bar").click(function () {
+                $("#menu-responsive").toggle("slide", { direction: "right" }, 700);
+            });
+        });
+
+        $(document).ready(function () {
+            $(".close").click(function () {
+                $("#menu-responsive").toggle("slide", { direction: "right" }, 700);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <article id="menu-responsive">
+        <div class="op-menu-sup">
+            <div class="part-c1">
+            </div>
+            <div class="part-c2">
+                <div class="close">✣</div>
+            </div>
+        </div>
+        <div class="op-menu-inf">
+            <div class="part-1">
+            </div>
+            <div class="part-2">
+                <div class="part-2-sub1">
+                    <div class="options">Inicio</div>
+                    <div class="options">Bloques mágicos</div>
+                    <div class="options">Buggys</div>
+                    <div class="options">Muebles</div>
+                </div>
+                <div class="part-2-sub2">
+                </div>
+            </div>
+        </div>
+    </article>
+    <nav>
+        <div class="nav-left">
+            <img src="sources/logo.png" alt="Logo Ludik" title="Ludik" width="40" height="40" class="logo">
+            <h3>LUDIK™</h3>
+        </div>
+        <div class="nav-right">
+            <ul id="main-menu-screen">
+                <li><a href="#" title="Inicio">Inicio</a></li>
+                <li><a href="#" title="Bloques mágicos">Bloques mágicos</a></li>
+                <li><a href="#" title="Buggys">Buggys</a></li>
+                <li><a href="#" title="Muebles" id="last-option">Muebles</a></li>
+            </ul>
+            <ul id="main-menu-screen2">
+                <li><a href="#" id="nav-bar">☰</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="head-part-1">
+            <h2>Bienvenidos a LUDIK</h2>
+                <p class="bienvenido">
+                    Bienvenidos a un mundo donde la imaginación cobra vida, nuestros juguetes hechos a mano, están diseñados para desarrollar la creatividad en cada niño.
+                    Creemos en el poder mágico de la imaginación, por lo que creamos juguetes únicos en el mundo que
+                    inspiran a los niños a explorar y aprender.
+                </p>
+            <img src="sources/family.jpg" alt="Imagen de una familia jugando con jueguetes de madera" title="Familia Ludik" width="250" height="250" class="img-family" id="hidden-screen">
+        </div>
+        <div class="head-part-2">
+            <img src="sources/family.jpg" alt="Imagen de una familia jugando con jueguetes de madera" width="285" height="285" class="img-family" title="Familia Ludik">
+        </div>
+    </header>
+    <section>
+        <article class="article-l">
+            <img src="sources/aboutas.png" alt="Acerca de nosotros" width="105" height="95" style="margin-bottom: 0.5rem;"
+                class="img-menu" title="Nosotros Ludik">
+            Nosotros
+        </article>
+        <article class="article-m">
+            <img src="sources/products.png" alt="Productos Ludik" width="105" height="95" style="margin-bottom: 0.5rem;" class="img-menu" title="Productos Ludik">
+            Productos
+        </article>
+        <article class="article-r">
+            <img src="sources/news.png" alt="Novedades Ludik" width="110" height="95" style="margin-bottom: 0.5rem;" class="img-menu" title="Novedades Ludik">
+            Novedades
+        </article>
+        <article class="article-rder">
+            <img src="sources/blog.png" alt="Blog Ludik" width="105" height="95" style="margin-bottom: 0.5rem;" class="img-menu" title="Blog Ludik">
+            Blog
+        </article>
+        <article class="article-rder2">
+            <img src="sources/contact.png" alt="Contacto Ludik" width="105" height="95" style="margin-bottom: 0.5rem;" title="Contacto Ludik" class="img-menu">
+            Contacto
+        </article>
+    </section>
+</body>
+
+</html>

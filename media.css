@@ -1,0 +1,100 @@
+@media (max-width: 850px) {
+  * {
+    margin: 0;
+  }
+
+
+  #main-menu-screen {
+    display: none;
+  }
+
+  #main-menu-screen2 {
+    display: block;
+
+  }
+
+  body {
+    background: #fceed1;
+  }
+
+  section {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(sources/background.png) center no-repeat;
+    background-size: 110vw 50vh;
+
+  }
+
+  .article-l,
+  .article-m,
+  .article-r,
+  .article-rder,
+  .article-rder2 {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 40px;
+    height: auto;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .head-part-1{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .head-part-2 {
+    display: none;
+  }
+
+  h3 {
+    margin-left: 2rem;
+  }
+
+  h2 {
+    margin-top: -2rem;
+    margin-left: -0.4rem;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .bienvenido {
+    margin-bottom: -4rem;
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+
+  .img-menu {
+    width: 70px;
+    height: auto;
+  }
+
+  #hidden-screen {
+    display: block;
+    margin-top: 5rem;
+  }
+}
