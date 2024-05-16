@@ -4,44 +4,42 @@
     font-family: "Nunito", sans-serif;
 }
 
-body {
+img
+
+body,
+nav,
+header,
+section,
+article {
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+}
+
+body {
     overflow-x: hidden;
     background: #fceed1;
 }
 
 nav {
     width: 100vw;
-    height: 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 20vh;
     flex-direction: row;
-
 }
 
 header {
     width: 100vw;
-    height:50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 50vh;
     flex-direction: row;
-    
 }
 
 section {
     width: 100vw;
-    height: 35vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(sources/background.png) center no-repeat;
-    background-size: cover;
-
+    height: 30vh;
+    flex-direction: row;   
+    background: url(sources/bg.png) center no-repeat;
+    background-size: 100vw 30vh;
 }
 
 ul {
@@ -60,17 +58,34 @@ a {
 }
 
 .nav-left,
-.nav-right {
-    width: 10vw;
-    height: 15vh;
+.nav-right,
+.article-l,
+.article-m,
+.article-r,
+.article-rder,
+.article-rder2,
+.op-menu-sup,
+.op-menu-inf,
+.part-1,
+.part-2,
+.part-2-sub1,
+.part-2-sub2,
+.part-c1,
+.part-c2,
+.head-part-1,
+.head-part-2 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #b88c49;
 }
 
-
+.nav-left,
+.nav-right {
+    width: 10vw;
+    height: 20vh;
+    color: #b88c49;
+}
 
 .nav-right {
     width: 90vw;
@@ -85,104 +100,64 @@ a {
 .article-rder,
 .article-rder2 {
     width: 20vw;
-    height: 35vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;  
+    height: 30vh;
     font-weight: 560;
 }
-
-
-
 
 #menu-responsive {
     top: 0;
     position: absolute;
     width: 100vw;
     height: 120vh;
-    align-items: center;
     justify-content: flex-end;
-    flex-direction: column;
     display: none;
     overflow: hidden;
 }
 
 .op-menu-sup {
-
     width: 100vw;
     height: 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .op-menu-inf {
     width: 100vw;
     height: 115vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: row;
 }
 
 .part-1 {
     width: 50vw;
     height: 115vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .part-2 {
     width: 50vw;
     height: 115vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
 }
 
 .part-2-sub1 {
-    color: white;
     width: 50vw;
     height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    color: white;
     background: #222;
 }
 
 .part-2-sub2 {
-
     width: 50vw;
     height: 65vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     background: #222;
 }
 
 .part-c1 {
     width: 50vw;
     height: 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .part-c2 {
     width: 50vw;
     height: 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
     background: #222;
+    justify-content: flex-end;
 }
 
 .close {
@@ -226,26 +201,19 @@ a {
 .head-part-2 {
     width: 50vw;
     height: 50vh;
-    display: flex;
     align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-
 }
 
 .head-part-2 {
     align-items: center;
- 
 }
 
 .bienvenido {
-
     font-size: 0.9rem;
     padding: 2rem;
     text-align: justify;
     margin: 2.4rem;
     font-family: "Reddit Sans", sans-serif;
-    
     line-height: 1.5rem;
     color: #7c5d2e;
 }
@@ -263,8 +231,6 @@ h2 {
     margin-bottom: -3rem;
     font-family: "Reddit Sans", sans-serif;
     color: #fd5e4b;
-    
-
 }
 
 i {
@@ -280,6 +246,6 @@ i {
     margin-left: 3rem;
 }
 
-#hidden-screen{
+#hidden-screen {
     display: none;
 }
